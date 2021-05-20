@@ -1,20 +1,78 @@
-.navigationbar{
-    font-size: 14px;
+html{
     font-family: Roboto,arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+}
+a :visited{
+    color: black;
+}
+.navigationbar{
+    margin:15px 15px;
+    font-size: 14px;
+    /*font: Roboto;*/
 }
 .navigationbar-right{
     float: right;
 }
 .logo{
-    padding-top: 4em;
-    display: block;
-    margin: auto;
-    width: 50%;
+    float: center;
+    padding-top: 250px;
+    margin:auto;
+    /*display: block;*/
+    width: 15%;
 }
+
 .search-form{
-    padding-top: 0.5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+
+    /*border: 1px solid red;*/
+    margin:auto;
+    margin-top: 15px;
+    width: 30%;
+
+
+}
+.search-form input{
+    width: 100%;
+    line-height: 35px;
+
+    /*fancy rounded corners*/
+    border-bottom-color: #b3b3b3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    border-left-width: 0.5px;
+    border-right-color: #b3b3b3;
+    border-right-style: solid;
+    border-right-width: 0.5px;
+    border-top-color: #b3b3b3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-radius: 20px;
+
+}
+.search-form-buttons{
+    display:flex;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+.search-form-buttons button{
+    display: flex;
+    justify-content: center;
+    background: rgb(248, 249, 250);
+    border: #b3b3b3 0px solid;
+    font-size: 16px;
+    line-height: 30px;
+    padding:3px 12px;
+    margin: 10px 15px;
+
+    border-width: 0px;
+    border-radius: 5px;
 }
